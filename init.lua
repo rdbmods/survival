@@ -9,6 +9,20 @@ minetest.register_craft({
 	}
 })
 
+minetest.register_craft({
+	output = 'default:gravel',
+	recipe = {
+		{'default:cobble'},		
+	}
+})
+
+minetest.register_craft({
+	output = 'default:cobble 4',
+	recipe = {
+		{'default:gravel', 'default:gravel'},
+		{'default:gravel', 'default:gravel'},			
+	}
+})
 -- craftitems
 
 
